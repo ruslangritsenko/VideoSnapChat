@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4628EFE21DB92F1400FB7720 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628EFE11DB92F1400FB7720 /* SettingViewController.swift */; };
+		4628EFE41DB93C4600FB7720 /* WindowRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628EFE31DB93C4600FB7720 /* WindowRootController.swift */; };
+		46D89FC11DB2921C0036A5F2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D89FC01DB2921C0036A5F2 /* SignupViewController.swift */; };
+		46D89FC31DB2AEBB0036A5F2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D89FC21DB2AEBB0036A5F2 /* HomeViewController.swift */; };
+		46D89FC51DB2AF880036A5F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D89FC41DB2AF880036A5F2 /* MainViewController.swift */; };
+		46D89FC81DB2B55A0036A5F2 /* HomeVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D89FC71DB2B55A0036A5F2 /* HomeVideoTableViewCell.swift */; };
+		46D89FCC1DB2CE1C0036A5F2 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D89FCB1DB2CE1C0036A5F2 /* RecordViewController.swift */; };
+		46FCA01D1DB25D7A00FDA744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCA01C1DB25D7A00FDA744 /* AppDelegate.swift */; };
+		46FCA01F1DB25D7A00FDA744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCA01E1DB25D7A00FDA744 /* LoginViewController.swift */; };
+		46FCA0221DB25D7A00FDA744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FCA0201DB25D7A00FDA744 /* Main.storyboard */; };
+		46FCA0241DB25D7A00FDA744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FCA0231DB25D7A00FDA744 /* Assets.xcassets */; };
+		46FCA0271DB25D7A00FDA744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FCA0251DB25D7A00FDA744 /* LaunchScreen.storyboard */; };
+		48934AB4D61E90148BFE85E7 /* Pods_VideoSnapChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B1BC38DD1E7D262B21DB8B /* Pods_VideoSnapChat.framework */; };
+		F71886C81DD0E2C300A63E7F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886C71DD0E2C300A63E7F /* DetailViewController.swift */; };
+		F71886CA1DD0E84200A63E7F /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886C91DD0E84200A63E7F /* DetailTableViewCell.swift */; };
+		F71886D21DD1142F00A63E7F /* MyVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886D11DD1142F00A63E7F /* MyVideosViewController.swift */; };
+		F71886D61DD1170A00A63E7F /* MyVideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886D51DD1170A00A63E7F /* MyVideosTableViewCell.swift */; };
+		F71886D81DD176E400A63E7F /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886D71DD176E400A63E7F /* FollowingViewController.swift */; };
+		F71886DE1DD2211E00A63E7F /* FollowingYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886DD1DD2211E00A63E7F /* FollowingYouViewController.swift */; };
+		F71886E01DD2212F00A63E7F /* YouAreFollwoingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886DF1DD2212F00A63E7F /* YouAreFollwoingViewController.swift */; };
+		F71886E81DD2275100A63E7F /* FollowingYouTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886E71DD2275100A63E7F /* FollowingYouTableViewCell.swift */; };
+		F71886EA1DD2275F00A63E7F /* YouAreFollowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886E91DD2275F00A63E7F /* YouAreFollowingTableViewCell.swift */; };
+		F71886F81DD2719900A63E7F /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886F71DD2719900A63E7F /* TopicsViewController.swift */; };
+		F71886FA1DD271B100A63E7F /* TagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886F91DD271B100A63E7F /* TagsViewController.swift */; };
+		F71886FC1DD271C100A63E7F /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886FB1DD271C100A63E7F /* SubjectViewController.swift */; };
+		F71886FE1DD271D100A63E7F /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886FD1DD271D100A63E7F /* PeopleViewController.swift */; };
+		F71887001DD271E500A63E7F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71886FF1DD271E500A63E7F /* SearchViewController.swift */; };
+		F71887051DD275CB00A63E7F /* TopicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71887041DD275CB00A63E7F /* TopicsTableViewCell.swift */; };
+		F71887071DD275D600A63E7F /* TagsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71887061DD275D600A63E7F /* TagsTableViewCell.swift */; };
+		F71887091DD275E000A63E7F /* SubjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71887081DD275E000A63E7F /* SubjectTableViewCell.swift */; };
+		F718870B1DD275F000A63E7F /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718870A1DD275F000A63E7F /* PeopleTableViewCell.swift */; };
+		F72404801DD4C966001885AC /* SettingLastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F724047F1DD4C966001885AC /* SettingLastTableViewCell.swift */; };
+		F75F1AE71DC3E3BD003435BB /* ProfileCommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1AE61DC3E3BD003435BB /* ProfileCommonTableViewCell.swift */; };
+		F75F1AE91DC3F72D003435BB /* InvitationVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1AE81DC3F72D003435BB /* InvitationVideoTableViewCell.swift */; };
+		F75F1AEB1DC3F8E0003435BB /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1AEA1DC3F8E0003435BB /* InvitationViewController.swift */; };
+		F75F1AED1DC40108003435BB /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1AEC1DC40108003435BB /* RecordingViewController.swift */; };
+		F76C5A981DD35E0200D9FD6A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76C5A971DD35E0200D9FD6A /* ProfileViewController.swift */; };
+		F76C5AAC1DD3784F00D9FD6A /* ProfileVideosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76C5AAB1DD3784F00D9FD6A /* ProfileVideosCollectionViewCell.swift */; };
+		F76C5AB41DD3C8E700D9FD6A /* SettingToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76C5AB31DD3C8E700D9FD6A /* SettingToggleTableViewCell.swift */; };
+		F7F9BBCE1DDF98FF00DDC4AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7F9BBCD1DDF98FF00DDC4AD /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4628EFE11DB92F1400FB7720 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4628EFE31DB93C4600FB7720 /* WindowRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowRootController.swift; sourceTree = "<group>"; };
+		46D89FC01DB2921C0036A5F2 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		46D89FC21DB2AEBB0036A5F2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		46D89FC41DB2AF880036A5F2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		46D89FC71DB2B55A0036A5F2 /* HomeVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoTableViewCell.swift; sourceTree = "<group>"; };
+		46D89FCB1DB2CE1C0036A5F2 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		46FCA0191DB25D7A00FDA744 /* VideoSnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FCA01C1DB25D7A00FDA744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46FCA01E1DB25D7A00FDA744 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		46FCA0211DB25D7A00FDA744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46FCA0231DB25D7A00FDA744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46FCA0261DB25D7A00FDA744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46FCA0281DB25D7A00FDA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FCA0311DB25D7A00FDA744 /* VideoSnapChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSnapChatTests.swift; sourceTree = "<group>"; };
+		46FCA0331DB25D7A00FDA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FCA03C1DB25D7A00FDA744 /* VideoSnapChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSnapChatUITests.swift; sourceTree = "<group>"; };
+		46FCA03E1DB25D7A00FDA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961A56C1989801A8EE046253 /* Pods-VideoSnapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSnapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoSnapChat/Pods-VideoSnapChat.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B1B05277904B35549881D0 /* Pods-VideoSnapChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoSnapChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoSnapChat/Pods-VideoSnapChat.release.xcconfig"; sourceTree = "<group>"; };
+		B9B1BC38DD1E7D262B21DB8B /* Pods_VideoSnapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoSnapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71886C71DD0E2C300A63E7F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F71886C91DD0E84200A63E7F /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		F71886D11DD1142F00A63E7F /* MyVideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVideosViewController.swift; sourceTree = "<group>"; };
+		F71886D51DD1170A00A63E7F /* MyVideosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVideosTableViewCell.swift; sourceTree = "<group>"; };
+		F71886D71DD176E400A63E7F /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		F71886DA1DD20A2600A63E7F /* VideoSnapChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoSnapChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		F71886DD1DD2211E00A63E7F /* FollowingYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingYouViewController.swift; sourceTree = "<group>"; };
+		F71886DF1DD2212F00A63E7F /* YouAreFollwoingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouAreFollwoingViewController.swift; sourceTree = "<group>"; };
+		F71886E71DD2275100A63E7F /* FollowingYouTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingYouTableViewCell.swift; sourceTree = "<group>"; };
+		F71886E91DD2275F00A63E7F /* YouAreFollowingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouAreFollowingTableViewCell.swift; sourceTree = "<group>"; };
+		F71886F71DD2719900A63E7F /* TopicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		F71886F91DD271B100A63E7F /* TagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsViewController.swift; sourceTree = "<group>"; };
+		F71886FB1DD271C100A63E7F /* SubjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		F71886FD1DD271D100A63E7F /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		F71886FF1DD271E500A63E7F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F71887041DD275CB00A63E7F /* TopicsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsTableViewCell.swift; sourceTree = "<group>"; };
+		F71887061DD275D600A63E7F /* TagsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsTableViewCell.swift; sourceTree = "<group>"; };
+		F71887081DD275E000A63E7F /* SubjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectTableViewCell.swift; sourceTree = "<group>"; };
+		F718870A1DD275F000A63E7F /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
+		F724047F1DD4C966001885AC /* SettingLastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingLastTableViewCell.swift; sourceTree = "<group>"; };
+		F75F1AE61DC3E3BD003435BB /* ProfileCommonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCommonTableViewCell.swift; sourceTree = "<group>"; };
+		F75F1AE81DC3F72D003435BB /* InvitationVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationVideoTableViewCell.swift; sourceTree = "<group>"; };
+		F75F1AEA1DC3F8E0003435BB /* InvitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
+		F75F1AEC1DC40108003435BB /* RecordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		F76C5A971DD35E0200D9FD6A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F76C5AAB1DD3784F00D9FD6A /* ProfileVideosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVideosCollectionViewCell.swift; sourceTree = "<group>"; };
+		F76C5AB31DD3C8E700D9FD6A /* SettingToggleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingToggleTableViewCell.swift; sourceTree = "<group>"; };
+		F7BE060E1DFB20470057AA05 /* VideoSnapChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoSnapChat.entitlements; sourceTree = "<group>"; };
+		F7F9BBCD1DDF98FF00DDC4AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FCA0161DB25D7A00FDA744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48934AB4D61E90148BFE85E7 /* Pods_VideoSnapChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4628EFDC1DB7B08E00FB7720 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		46D89FBF1DB291FF0036A5F2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46FCA01E1DB25D7A00FDA744 /* LoginViewController.swift */,
+				46D89FC01DB2921C0036A5F2 /* SignupViewController.swift */,
+				46D89FC21DB2AEBB0036A5F2 /* HomeViewController.swift */,
+				46D89FC41DB2AF880036A5F2 /* MainViewController.swift */,
+				46D89FCB1DB2CE1C0036A5F2 /* RecordViewController.swift */,
+				F75F1AEC1DC40108003435BB /* RecordingViewController.swift */,
+				4628EFE11DB92F1400FB7720 /* SettingViewController.swift */,
+				4628EFE31DB93C4600FB7720 /* WindowRootController.swift */,
+				F75F1AEA1DC3F8E0003435BB /* InvitationViewController.swift */,
+				F71886C71DD0E2C300A63E7F /* DetailViewController.swift */,
+				F71886D11DD1142F00A63E7F /* MyVideosViewController.swift */,
+				F71886D71DD176E400A63E7F /* FollowingViewController.swift */,
+				F71886DD1DD2211E00A63E7F /* FollowingYouViewController.swift */,
+				F71886DF1DD2212F00A63E7F /* YouAreFollwoingViewController.swift */,
+				F71886F71DD2719900A63E7F /* TopicsViewController.swift */,
+				F71886F91DD271B100A63E7F /* TagsViewController.swift */,
+				F71886FB1DD271C100A63E7F /* SubjectViewController.swift */,
+				F71886FD1DD271D100A63E7F /* PeopleViewController.swift */,
+				F71886FF1DD271E500A63E7F /* SearchViewController.swift */,
+				F76C5A971DD35E0200D9FD6A /* ProfileViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		46D89FC61DB2B52D0036A5F2 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F71887031DD275B700A63E7F /* SearchCells */,
+				F75F1AE51DC3E390003435BB /* ProfileVideoCells */,
+				46D89FC71DB2B55A0036A5F2 /* HomeVideoTableViewCell.swift */,
+				F75F1AE81DC3F72D003435BB /* InvitationVideoTableViewCell.swift */,
+				F71886C91DD0E84200A63E7F /* DetailTableViewCell.swift */,
+				F71886D51DD1170A00A63E7F /* MyVideosTableViewCell.swift */,
+				F71886E71DD2275100A63E7F /* FollowingYouTableViewCell.swift */,
+				F71886E91DD2275F00A63E7F /* YouAreFollowingTableViewCell.swift */,
+			);
+			name = ViewCell;
+			sourceTree = "<group>";
+		};
+		46FCA0101DB25D7A00FDA744 = {
+			isa = PBXGroup;
+			children = (
+				46FCA01B1DB25D7A00FDA744 /* VideoSnapChat */,
+				46FCA0301DB25D7A00FDA744 /* VideoSnapChatTests */,
+				46FCA03B1DB25D7A00FDA744 /* VideoSnapChatUITests */,
+				46FCA01A1DB25D7A00FDA744 /* Products */,
+				99F08A648D4697A9ADEE8B86 /* Pods */,
+				920E1B67017D8E709D462F9B /* Frameworks */,
+				F71886DA1DD20A2600A63E7F /* VideoSnapChat-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		46FCA01A1DB25D7A00FDA744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FCA0191DB25D7A00FDA744 /* VideoSnapChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46FCA01B1DB25D7A00FDA744 /* VideoSnapChat */ = {
+			isa = PBXGroup;
+			children = (
+				F7BE060E1DFB20470057AA05 /* VideoSnapChat.entitlements */,
+				4628EFDC1DB7B08E00FB7720 /* WebService */,
+				46D89FC61DB2B52D0036A5F2 /* ViewCell */,
+				46D89FBF1DB291FF0036A5F2 /* ViewController */,
+				46FCA0201DB25D7A00FDA744 /* Main.storyboard */,
+				46FCA01C1DB25D7A00FDA744 /* AppDelegate.swift */,
+				46FCA0231DB25D7A00FDA744 /* Assets.xcassets */,
+				46FCA0251DB25D7A00FDA744 /* LaunchScreen.storyboard */,
+				46FCA0281DB25D7A00FDA744 /* Info.plist */,
+				F7F9BBCD1DDF98FF00DDC4AD /* GoogleService-Info.plist */,
+			);
+			path = VideoSnapChat;
+			sourceTree = "<group>";
+		};
+		46FCA0301DB25D7A00FDA744 /* VideoSnapChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FCA0311DB25D7A00FDA744 /* VideoSnapChatTests.swift */,
+				46FCA0331DB25D7A00FDA744 /* Info.plist */,
+			);
+			path = VideoSnapChatTests;
+			sourceTree = "<group>";
+		};
+		46FCA03B1DB25D7A00FDA744 /* VideoSnapChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46FCA03C1DB25D7A00FDA744 /* VideoSnapChatUITests.swift */,
+				46FCA03E1DB25D7A00FDA744 /* Info.plist */,
+			);
+			path = VideoSnapChatUITests;
+			sourceTree = "<group>";
+		};
+		920E1B67017D8E709D462F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B1BC38DD1E7D262B21DB8B /* Pods_VideoSnapChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99F08A648D4697A9ADEE8B86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				961A56C1989801A8EE046253 /* Pods-VideoSnapChat.debug.xcconfig */,
+				A8B1B05277904B35549881D0 /* Pods-VideoSnapChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F71887031DD275B700A63E7F /* SearchCells */ = {
+			isa = PBXGroup;
+			children = (
+				F71887041DD275CB00A63E7F /* TopicsTableViewCell.swift */,
+				F71887061DD275D600A63E7F /* TagsTableViewCell.swift */,
+				F71887081DD275E000A63E7F /* SubjectTableViewCell.swift */,
+				F718870A1DD275F000A63E7F /* PeopleTableViewCell.swift */,
+			);
+			name = SearchCells;
+			sourceTree = "<group>";
+		};
+		F75F1AE51DC3E390003435BB /* ProfileVideoCells */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1AE61DC3E3BD003435BB /* ProfileCommonTableViewCell.swift */,
+				F76C5AAB1DD3784F00D9FD6A /* ProfileVideosCollectionViewCell.swift */,
+				F76C5AB31DD3C8E700D9FD6A /* SettingToggleTableViewCell.swift */,
+				F724047F1DD4C966001885AC /* SettingLastTableViewCell.swift */,
+			);
+			name = ProfileVideoCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46FCA0181DB25D7A00FDA744 /* VideoSnapChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FCA0411DB25D7A00FDA744 /* Build configuration list for PBXNativeTarget "VideoSnapChat" */;
+			buildPhases = (
+				59BA97587D942CAE6D6013E7 /* [CP] Check Pods Manifest.lock */,
+				46FCA0151DB25D7A00FDA744 /* Sources */,
+				46FCA0161DB25D7A00FDA744 /* Frameworks */,
+				46FCA0171DB25D7A00FDA744 /* Resources */,
+				2B7372C6E4B0182FAFADA330 /* [CP] Embed Pods Frameworks */,
+				2325364C06F334963F2EDA3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoSnapChat;
+			productName = VideoSnapChat;
+			productReference = 46FCA0191DB25D7A00FDA744 /* VideoSnapChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46FCA0111DB25D7A00FDA744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ahmed;
+				TargetAttributes = {
+					46FCA0181DB25D7A00FDA744 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 765PS38E4G;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 46FCA0141DB25D7A00FDA744 /* Build configuration list for PBXProject "VideoSnapChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46FCA0101DB25D7A00FDA744;
+			productRefGroup = 46FCA01A1DB25D7A00FDA744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46FCA0181DB25D7A00FDA744 /* VideoSnapChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46FCA0171DB25D7A00FDA744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FCA0271DB25D7A00FDA744 /* LaunchScreen.storyboard in Resources */,
+				F7F9BBCE1DDF98FF00DDC4AD /* GoogleService-Info.plist in Resources */,
+				46FCA0241DB25D7A00FDA744 /* Assets.xcassets in Resources */,
+				46FCA0221DB25D7A00FDA744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2325364C06F334963F2EDA3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoSnapChat/Pods-VideoSnapChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7372C6E4B0182FAFADA330 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoSnapChat/Pods-VideoSnapChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BA97587D942CAE6D6013E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FCA0151DB25D7A00FDA744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71886D61DD1170A00A63E7F /* MyVideosTableViewCell.swift in Sources */,
+				46D89FC11DB2921C0036A5F2 /* SignupViewController.swift in Sources */,
+				46FCA01F1DB25D7A00FDA744 /* LoginViewController.swift in Sources */,
+				F71887001DD271E500A63E7F /* SearchViewController.swift in Sources */,
+				F76C5AB41DD3C8E700D9FD6A /* SettingToggleTableViewCell.swift in Sources */,
+				F76C5AAC1DD3784F00D9FD6A /* ProfileVideosCollectionViewCell.swift in Sources */,
+				F75F1AED1DC40108003435BB /* RecordingViewController.swift in Sources */,
+				F71886CA1DD0E84200A63E7F /* DetailTableViewCell.swift in Sources */,
+				F76C5A981DD35E0200D9FD6A /* ProfileViewController.swift in Sources */,
+				F71886DE1DD2211E00A63E7F /* FollowingYouViewController.swift in Sources */,
+				F72404801DD4C966001885AC /* SettingLastTableViewCell.swift in Sources */,
+				F71886F81DD2719900A63E7F /* TopicsViewController.swift in Sources */,
+				F71886E81DD2275100A63E7F /* FollowingYouTableViewCell.swift in Sources */,
+				46D89FC81DB2B55A0036A5F2 /* HomeVideoTableViewCell.swift in Sources */,
+				F71887091DD275E000A63E7F /* SubjectTableViewCell.swift in Sources */,
+				F75F1AE91DC3F72D003435BB /* InvitationVideoTableViewCell.swift in Sources */,
+				F71886D21DD1142F00A63E7F /* MyVideosViewController.swift in Sources */,
+				46D89FCC1DB2CE1C0036A5F2 /* RecordViewController.swift in Sources */,
+				F71886FC1DD271C100A63E7F /* SubjectViewController.swift in Sources */,
+				F75F1AE71DC3E3BD003435BB /* ProfileCommonTableViewCell.swift in Sources */,
+				F71886EA1DD2275F00A63E7F /* YouAreFollowingTableViewCell.swift in Sources */,
+				4628EFE41DB93C4600FB7720 /* WindowRootController.swift in Sources */,
+				F71887051DD275CB00A63E7F /* TopicsTableViewCell.swift in Sources */,
+				46FCA01D1DB25D7A00FDA744 /* AppDelegate.swift in Sources */,
+				46D89FC31DB2AEBB0036A5F2 /* HomeViewController.swift in Sources */,
+				F71886FA1DD271B100A63E7F /* TagsViewController.swift in Sources */,
+				F71886FE1DD271D100A63E7F /* PeopleViewController.swift in Sources */,
+				F75F1AEB1DC3F8E0003435BB /* InvitationViewController.swift in Sources */,
+				F71886E01DD2212F00A63E7F /* YouAreFollwoingViewController.swift in Sources */,
+				F71887071DD275D600A63E7F /* TagsTableViewCell.swift in Sources */,
+				4628EFE21DB92F1400FB7720 /* SettingViewController.swift in Sources */,
+				F718870B1DD275F000A63E7F /* PeopleTableViewCell.swift in Sources */,
+				46D89FC51DB2AF880036A5F2 /* MainViewController.swift in Sources */,
+				F71886D81DD176E400A63E7F /* FollowingViewController.swift in Sources */,
+				F71886C81DD0E2C300A63E7F /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46FCA0201DB25D7A00FDA744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FCA0211DB25D7A00FDA744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46FCA0251DB25D7A00FDA744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FCA0261DB25D7A00FDA744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46FCA03F1DB25D7A00FDA744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46FCA0401DB25D7A00FDA744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46FCA0421DB25D7A00FDA744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961A56C1989801A8EE046253 /* Pods-VideoSnapChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VideoSnapChat/VideoSnapChat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ahmed Makhzoumi (765PS38E4G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 765PS38E4G;
+				INFOPLIST_FILE = VideoSnapChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chat.videosnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f987f609-7487-4682-ac92-1634352cac4e";
+				PROVISIONING_PROFILE_SPECIFIER = VideoChatIOSProvision;
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoSnapChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46FCA0431DB25D7A00FDA744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B1B05277904B35549881D0 /* Pods-VideoSnapChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VideoSnapChat/VideoSnapChat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ahmed Makhzoumi (765PS38E4G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 765PS38E4G;
+				INFOPLIST_FILE = VideoSnapChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chat.videosnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f987f609-7487-4682-ac92-1634352cac4e";
+				PROVISIONING_PROFILE_SPECIFIER = VideoChatIOSProvision;
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoSnapChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46FCA0141DB25D7A00FDA744 /* Build configuration list for PBXProject "VideoSnapChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FCA03F1DB25D7A00FDA744 /* Debug */,
+				46FCA0401DB25D7A00FDA744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FCA0411DB25D7A00FDA744 /* Build configuration list for PBXNativeTarget "VideoSnapChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FCA0421DB25D7A00FDA744 /* Debug */,
+				46FCA0431DB25D7A00FDA744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46FCA0111DB25D7A00FDA744 /* Project object */;
+}
